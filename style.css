@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mainMenu {
+  display: flex;
+  gap: 250px;
+}
+
+.mainMenu li {
+  position: relative;
+}
+
+.mainMenu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hoverMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -6px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  border-radius: 20px;
+}
+.hoverMenuTour {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -6px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.hoverMenu ul li {
+  padding: 8px 16px;
+}
+
+.hoverMenu ul li a {
+  color: #333;
+}
+
+.hoverMenu ul li:hover {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+.aboutUs:hover .hoverMenu {
+  display: block;
+}
+
+.hoverMenuTour ul li {
+  padding: 8px 16px;
+}
+
+.hoverMenuTour ul li a {
+  color: #333;
+}
+
+.hoverMenuTour ul li:hover {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+.tours:hover .hoverMenuTour {
+  display: block;
+}
+
+.right {
+  margin-left: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right img {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.dropDownLanguage {
+  display: flex;
+  flex-direction: column;
+}
