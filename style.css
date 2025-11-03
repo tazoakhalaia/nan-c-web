@@ -135,5 +135,49 @@ ul {
   font-size: 48px;
   font-weight: bold;
   width: 500px;
+}
 
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f8fff8;
+  height: 150px;
+}
+
+.info p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.collage {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_collage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+}
+
+.info_collage p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.info_collage img {
+  width: 80%;
+  height: 220px;
 }
