@@ -117,3 +117,23 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+.main {
+  position: relative;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+}
+
+.main p {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  width: 500px;
+
+}
